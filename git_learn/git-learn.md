@@ -1,48 +1,31 @@
 # git init
-<code>
-#mkdir [repository name]
-
-[root@localhost git_learn]#git init
-</code>
-
+- #mkdir [repository name]
+- #git init
 <hr/>
+
 # git add
-<code>
-[root@localhost git_learn]# git add README.md
-</code>
+- #git add README.md
 
 <hr/>
+
 # remote server 
-<code>
-root@localhost git_learn]# git remote add origin https://github.com/zacscoding/learn-linux-git.git
 
-root@localhost git_learn]# git push -u origin master
-</code>
+- #git remote add origin https://github.com/zacscoding/learn-linux-git.git
+- #git push -u origin master
 
 <hr/>
+
 # create branch
 - display branches
-
-<code>
-# git branch
-</code>
++ #git branch
 
 - create 
-
-<code>
-# git branch hotfix
-</code>
++ #git branch hotfix
 
 - change branch
-
-<code>
-# git checkout hotfix
-</code>
++#git checkout hotfix
 
 - git branch + git checkout
-
-<code>
-# git checkout -b hotffix
-</code>
++#git checkout -b hotffix
 
 <hr/>
