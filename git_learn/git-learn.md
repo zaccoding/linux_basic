@@ -16,3 +16,19 @@ root@localhost git_learn]# git remote add origin https://github.com/zacscoding/l
 
 root@localhost git_learn]# git push -u origin master
 </code>
+
+# create branch
+<code>
+## display branches
+# git branch
+
+## create 
+# git branch hotfix
+
+## change branch
+# git checkout hotfix
+
+## git branch + git checkout
+# git checkout -b hotffix
+
+</code>
