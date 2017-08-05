@@ -1,31 +1,29 @@
 # git init
-- #mkdir [repository name]
-- #git init
-<hr/>
+
+`#mkdir [repository name]`
+
+`#git init`
 
 # git add
-- #git add README.md
+`#git add README.md`
 
-<hr/>
+# remote server
 
-# remote server 
+`#git remote add origin https://github.com/zacscoding/learn-linux-git.git`
 
-- #git remote add origin https://github.com/zacscoding/learn-linux-git.git
-- #git push -u origin master
-
-<hr/>
+`#git push -u origin master`
 
 # create branch
-- display branches
-+ #git branch
 
-- create 
-+ #git branch hotfix
+- display branches
+`#git branch`
+
+- create
+`#git branch hotffix`
 
 - change branch
-+#git checkout hotfix
+`#git checkout hotffix`
 
-- git branch + git checkout
-+#git checkout -b hotffix
+- create & change
+`#git checkout -b hotffix`
 
-<hr/>
