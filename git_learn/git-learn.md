@@ -1,0 +1,18 @@
+# git init
+<code>
+#mkdir [repository name]
+
+[root@localhost git_learn]#git init
+</code>
+
+# git add
+<code>
+[root@localhost git_learn]# git add README.md
+</code>
+
+# remote server 
+<code>
+root@localhost git_learn]# git remote add origin https://github.com/zacscoding/learn-linux-git.git
+
+root@localhost git_learn]# git push -u origin master
+</code>
