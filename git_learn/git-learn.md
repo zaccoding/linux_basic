@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-# git init
-
-`#mkdir [repository name]`
-
-`#git init`
-
-# git add
-`#git add README.md`
-
-# remote server
-
-`#git remote add origin https://github.com/zacscoding/learn-linux-git.git`
-
-`#git push -u origin master`
-
-# create branch
-
-- display branches
-`#git branch`
-
-- create
-`#git branch hotffix`
-
-- change branch
-`#git checkout hotffix`
-
-- create & change
-`#git checkout -b hotffix`
-
-=======
 # git command
 
 - [git-docs](https://git-scm.com/docs)
@@ -179,4 +148,3 @@ git fetch와 git merge 명령을 차례로 실행하는 것과 같은 명령
 
   
 
->>>>>>> origin/master
