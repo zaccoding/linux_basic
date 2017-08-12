@@ -1,4 +1,4 @@
-# E.g : Clone to local repository 
+# E.g : Clone to local repository
 
 ```#mkdir /git/linux-git-learn```  
 ```#cd /git/linux-git-learn```  
@@ -26,3 +26,12 @@ usage: git rm [options] [--] <file>...
 ```
 
 
+# E.g : Merge projectA into projectB
+
+<pre>
+# cd path/projectB
+# git remote add projectA path/to/projectA or URI
+# git fetch projectA
+# git merge --allow-unrelated-histories projectA/master
+# git remote remove projectA
+</pre>
