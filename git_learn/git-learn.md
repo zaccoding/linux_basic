@@ -142,6 +142,11 @@ git fetch와 git merge 명령을 차례로 실행하는 것과 같은 명령
 즉, git fetch 원격저장소이름 명령 과 git merge 원격저장소이름/현재브랜치  
 명령을 실행한 결과와 같음
 
+- ```#git remote add origin? http:...```  
+원격 저장소 추가
+
+- ```#git checkout -t origin/branch-name```  
+원격 브런치 checkout 
 
 
 
