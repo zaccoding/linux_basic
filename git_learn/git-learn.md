@@ -68,6 +68,8 @@ git add 명령을 실행해 커밋할 준비가 된(staged 상태인)
 - ```#git branch -d 브랜치이름```  
 <브랜치 이름>브랜치를 삭제  
 
+- ```#git push --set-upstream origin develop```  
+
 # 추적 중인 파일 삭제와 변경
 - ```#git rm 파일이름```  
 저장소에서 버전 관리 중인 파일을 삭제. 그와 더불어 실제 로컬  
