@@ -7,6 +7,7 @@
 ```#git pull orign```  
 ```#git checkout master```  
 
+---  
 
 # E.g : Remove remote files except local file
 
@@ -25,6 +26,7 @@ usage: git rm [options] [--] <file>...
     --ignore-unmatch      exit with a zero status even if nothing matched
 ```
 
+---  
 
 # E.g : Merge projectA into projectB
 
@@ -160,4 +162,38 @@ Date:   Sat Dec 23 01:47:06 2017 +0900
 create porjectA
 ```
 
----
+---  
+
+# rebase  
+
+```
+$ git log
+commit 860f37ee65828a213af59a22a3f93e9aceacdf42 (HEAD -> master)
+Author: zaccoding <zaccoding725@gmail.com>
+Date:   Sat Sep 8 23:55:42 2018 +0900
+
+    third
+
+commit 68c4b491ce931dac4947af3e8e60fbf08783c820
+Author: zaccoding <zaccoding725@gmail.com>
+Date:   Sat Sep 8 23:55:16 2018 +0900
+
+    second
+
+commit 8b58979a9b3b5724ce6683aa8b49500dc4aad792
+Author: zaccoding <zaccoding725@gmail.com>
+Date:   Sat Sep 8 23:55:02 2018 +0900
+
+    first  
+
+```  
+
+```
+$ git rebase -i HEAD~2
+pick 98c4b49 second
+squash 860f37e third  
+
+>>> Change commit message
+```  
+
+---  
